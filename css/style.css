@@ -172,7 +172,14 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/sanig.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.barraca-header {
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/barraca.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,6 +272,40 @@
     transform: scale(1.1);
 }
 
+
+
+.package-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.package-item img {
+    width: 100%;
+    height: auto;
+}
+
+.package-item .text-center {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.package-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.package-item p {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.package-item .btn {
+    margin-top: auto;
+}
 
 /*** Booking ***/
 .booking {
@@ -440,4 +481,11 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.half-star {
+    position: relative;
+    display: inline-block;
+    width: 0.5em; /* Ajusta según el tamaño de la estrella */
+    overflow: hidden;
 }
