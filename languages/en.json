@@ -1,0 +1,44 @@
+{
+    "nav":{
+        "inicio":"Home",
+        "sitios":"Sites",
+        "paginas":"Pages",
+        "iglesia":"Saint Ignacio Guazú Church",
+        "barraca":"Tañarandy Barracks",
+        "capilla":"Tañarandy Chapel",
+        "estatua":"Statue of Saint Roque",
+        "plaza":"Paraguayan Women's Plaza",
+        "hogar":"Nursing Home",
+        "nosotros":"About Us",
+        "copy":"&copy; Copyright César Alegre 2024. All rights reserved.",
+        "galeria":"GALLERY",
+        "imagenes":"Images",
+        "leer":"Read More"
+    },
+    "contenido": {
+        "historiai": "HISTORY",
+        "iglesiat1": "Church of <span class='text-primary'>San Ignacio Guazú</span>",
+        "iglesiai1": "In the 17th century, the Jesuits arrived in the Province of Paraguay with the mission of evangelizing the indigenous people. During their stay, they founded 30 towns and taught music, art and architecture. In San Ignacio Guazú, they built a monumental church that, despite having been demolished in the 20th century, left a deep legacy in the history and culture of the place.",
+        "iglesiat2": "<span class='text-primary'>First Church</span>and Its Decline",
+        "iglesiai2": "The first church of San Ignacio Guazú was completed in 1694. This church, which survived until 1911 in a deteriorated state, finally collapsed in 1921. It was notable for its wooden interior and a ceiling adorned with up to sixteen hundred paintings. After its destruction, only some vestiges remained that are exhibited today in the Diocesan Museum of San Ignacio Guazú.",
+        "nuevo":"New",
+        "templo":"Temple",
+        "iglesiai3":"The construction of the current church of San Ignacio Guazú began in 1919 and was completed in 1932. Despite not having the same splendor as the old Jesuit temple, it was the result of a collective effort by the community, from the men who worked in the field to the children who carried water. According to Saturnino Ferreira Pérez, the construction was led by Teodoro and Eugenio Pérez López, Venancio and Jacinto Ferloni, and others, along with a hundred anonymous residents.",
+        "iglesiai4":"The construction of the new temple was a community project. Parishioners, both rich and humble, contributed materials and work. Ranchers financed the purchase of materials, while local carpenters and sawmills provided the necessary wood. The enthusiasm of the population was such that construction advanced to the roof at the beginning of 1932.",
+        "iglesiat3":"Completion of the <span class='text-primary'>Temple</span>",
+        "iglesiai5":"In the midst of the Chaco War, the Jesuits returned to San Ignacio, led by Father Joaquín Vericat and others. His presence gave new impetus to the completion of the temple. Tiles were installed and the woodwork and roofing were completed with the collaboration of the community.",
+        "iglesiat4":"<span class='text-primary'>Legacy</span> and Preservation",
+        "iglesiai6":"Although the old Jesuit temple no longer exists, its legacy persists in the new temple and in the Jesuit Museum, which preserves magnificent pieces of sacred art and historical documents from the time. San Ignacio Guazú remains a living testimony of the rich Jesuit history in Paraguay."
+    },
+    "sitiosp":{
+        "sitioiglesia":"It is one of the oldest and most emblematic in the country. Its history is closely linked to...",
+        "sitiobarraca":"The Barraca de Tañarandy is a cultural and religious festivity celebrated in Tañarandy...",
+        "sitiocapilla":"It is a site of great cultural and religious importance. Tañarandy, whose name in Guaraní means...",
+        "sitioestatuat":"Statue Of <br>San Roque González",
+        "sitioestatuai":"The statue is located in the main square of San Ignacio, Misiones, a place of...",
+        "sitioplazat":"Paraguayan <br> Women's Plaza",
+        "sitioplazai":"It is a space with a rich history that reflects both the recognition of women...",
+        "sitiohogart":"St. Vincent de Paul <br>Nursing Home",
+        "sitiohogari":"This nursing home was founded with the intention of providing care and assistance to..."
+    }
+}

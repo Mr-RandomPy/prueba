@@ -66,38 +66,64 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link"
+                            data-section="nav" data-value="inicio">Inicio</a>
                         <a href="sitios.html"
-                            class="nav-item nav-link ">Sitios</a>
+                            class="nav-item nav-link " data-section="nav"
+                            data-value="sitios">Sitios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active"
-                                data-bs-toggle="dropdown">Páginas</a>
+                                data-bs-toggle="dropdown" data-section="nav"
+                                data-value="paginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="iglesia.html"
-                                    class="dropdown-item active">Iglesia San
+                                    class="dropdown-item active"
+                                    data-section="nav"
+                                    data-value="iglesia">Iglesia San
                                     Ignacio
                                     Guazú</a>
                                 <a href="barraca.html"
-                                    class="dropdown-item">Barraca de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="barraca">Barraca de
                                     Tañarandy</a>
-                                <a href="capillatanarandy.html"
+                                <a href="capillatanarandy.html "
+                                    data-section="nav" data-value="capilla"
                                     class="dropdown-item">Capilla de
                                     Tañarandy</a>
                                 <a href="estatuasanroque.html"
+                                    data-section="nav" data-value="estatua"
                                     class="dropdown-item">Estatua de San
                                     Roque</a>
                                 <a href="plazadelamujerparaguaya.html"
+                                    data-section="nav" data-value="plaza"
                                     class="dropdown-item">Plaza de la Mujer
                                     Paraguaya
                                 </a>
                                 <a href="hogardeansianos.html"
+                                    data-section="nav" data-value="hogar"
                                     class="dropdown-item">Hogar de Ancianos
                                 </a>
 
                             </div>
                         </div>
-                        <a href="aboutus.html" class="nav-item nav-link">Sobre
+                        <a href="aboutus.html" class="nav-item nav-link"
+                            data-section="nav" data-value="nosotros">Sobre
                             Nosotros</a>
+
+                        <div id="flags" class="flags">
+                            <div class="flags_item" data-language="es">
+                                <img class="flags_img"  src="/icons/es.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="en">
+                                <img class="flags_img" src="/icons/us.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="pt">
+                                <img class="flags_img" src="/icons/pt.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="de">
+                                <img class="flags_img" src="/icons/de.svg" alt>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -107,19 +133,23 @@
                     <div class="row justify-content-center py-5">
                         <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
                             <h1
-                                class="display-3 text-white animated slideInDown">Iglesia
+                                class="display-3 text-white animated slideInDown"
+                                data-section="nav" data-value="iglesia">Iglesia
                                 San Ignacio Guazú</h1>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a
-                                            href="index.html">Inicio</a></li>
+                                            href="index.html" data-section="nav"
+                                            data-value="inicio">Inicio</a></li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Páginas</li>
+                                        aria-current="page" data-section="nav"
+                                        data-value="paginas">Páginas</li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Iglesia San Ignacio
-                                        Guazu</li>
+                                        aria-current="page" data-section="nav"
+                                        data-value="iglesia">Iglesia San Ignacio
+                                        Guazú</li>
                                 </ol>
                             </nav>
                         </div>
@@ -149,11 +179,16 @@
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
                                 <h6
-                                    class="section-title bg-white text-start text-primary pe-3">HISTORIA</h6>
-                                <h1 class="mb-4">Iglesia de <span
+                                    class="section-title bg-white text-start text-primary pe-3"
+                                    data-section="contenido"
+                                    data-value="historiai">HISTORIA</h6>
+                                <h1 class="mb-4" data-section="contenido"
+                                    data-value="iglesiat1">Iglesia de <span
                                         class="text-primary">San Ignacio
                                         Guazú</span></h1>
-                                <p class="mb-4">En el siglo XVII, los jesuitas
+                                <p class="mb-4" data-section="contenido"
+                                    data-value="iglesiai1">En el siglo XVII, los
+                                    jesuitas
                                     llegaron a la Provincia del Paraguay con la
                                     misión de evangelizar a los indígenas.
                                     Durante su estancia, fundaron 30 pueblos y
@@ -163,10 +198,14 @@
                                     sido demolida en el siglo XX, dejó un legado
                                     profundo en la historia y cultura del
                                     lugar.</p>
-                                <h1 class="mb-4 text-end"><span
+                                <h1 class="mb-4 text-end"
+                                    data-section="contenido"
+                                    data-value="iglesiat2"><span
                                         class="text-primary">Primera Iglesia
                                     </span>y Su Declive</h1>
-                                <p class="mb-4 text-end">La primera iglesia de
+                                <p class="mb-4 text-end"
+                                    data-section="contenido"
+                                    data-value="iglesiai2">La primera iglesia de
                                     San Ignacio Guazú fue completada en 1694.
                                     Esta iglesia, que sobrevivió hasta 1911 en
                                     estado deteriorado, finalmente se derrumbó
@@ -187,14 +226,19 @@
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s"
                         style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <h6
-                            class="section-title bg-white text-center text-primary px-3">Nuevo</h6>
-                        <h1 class="mb-5">Templo</h1>
+                            class="section-title bg-white text-center text-primary px-3"
+                            data-section="contenido"
+                            data-value="nuevo">Nuevo</h6>
+                        <h1 class="mb-5" data-section="contenido"
+                            data-value="templo">Templo</h1>
                     </div>
                     <div class="container">
                         <div class="row g-5">
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
-                                <p class="mb-4">La construcción de la actual
+                                <p class="mb-4" data-section="contenido"
+                                    data-value="iglesiai3">La construcción de la
+                                    actual
                                     iglesia de San Ignacio Guazú comenzó en 1919
                                     y culminó en 1932. A pesar de no tener el
                                     mismo esplendor que el antiguo templo
@@ -207,7 +251,9 @@
                                     y Jacinto Ferloni, y otros, junto con un
                                     centenar de pobladores anónimos.</p>
 
-                                <p class="mb-4">La construcción del nuevo templo
+                                <p class="mb-4" data-section="contenido"
+                                    data-value="iglesiai4">La construcción del
+                                    nuevo templo
                                     fue un proyecto comunitario. Los feligreses,
                                     tanto ricos como humildes, aportaron
                                     materiales y trabajo. Los ganaderos
@@ -248,9 +294,13 @@
                             </div>
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
-                                <h1 class="mb-4">Finalización del <span
+                                <h1 class="mb-4" data-section="contenido"
+                                    data-value="iglesiat3">Finalización del
+                                    <span
                                         class="text-primary">Templo</span></h1>
-                                <p class="mb-4">En plena Guerra del Chaco, los
+                                <p class="mb-4" data-section="contenido"
+                                    data-value="iglesiai5">En plena Guerra del
+                                    Chaco, los
                                     jesuitas regresaron a San Ignacio, liderados
                                     por el padre Joaquín Vericat y otros. Su
                                     presencia dio un nuevo impulso para la
@@ -258,11 +308,15 @@
                                     baldosas y se completó el maderamen y
                                     techado con la colaboración de la
                                     comunidad.</p>
-                                <h1 class="mb-4 text-end"><span
+                                <h1 class="mb-4 text-end"
+                                    data-section="contenido"
+                                    data-value="iglesiat4"><span
                                         class="text-primary">Legado</span>
                                     y
                                     Preservación</h1>
-                                <p class="mb-4 text-end">Aunque el antiguo
+                                <p class="mb-4 text-end"
+                                    data-section="contenido"
+                                    data-value="iglesiai6">Aunque el antiguo
                                     templo jesuítico ya no existe, su legado
                                     persiste en el nuevo templo y en el Museo
                                     Jesuítico, que conserva magníficas piezas de
@@ -270,7 +324,6 @@
                                     época. San Ignacio Guazú sigue siendo un
                                     testimonio vivo de la rica historia
                                     jesuítica en Paraguay.</p>
-
                             </div>
                         </div>
                     </div>
@@ -284,8 +337,10 @@
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s"
                     style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <h6
-                        class="section-title bg-white text-center text-primary px-3">Galeria</h6>
-                    <h1 class="mb-5">Imágenes</h1>
+                        class="section-title bg-white text-center text-primary px-3"
+                        data-section="nav" data-value="galeria">Galeria</h6>
+                    <h1 class="mb-5" data-section="nav"
+                        data-value="imagenes">Imágenes</h1>
                 </div>
                 <div class="row g-3">
                     <div class="col-lg-7 col-md-6">

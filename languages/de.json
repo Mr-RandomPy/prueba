@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "inicio": "Start",
+        "sitios": "Orte",
+        "paginas": "Seiten",
+        "iglesia": "Kirche San Ignacio Guazú",
+        "capilla": "Tañarandy-Kapelle",
+        "barraca": "Tañarandy-Kaserne",
+        "estatua": "Statue des Heiligen Rochus",
+        "plaza": "Paraguayischer Frauenplatz",
+        "hogar": "Pflegeheim",
+        "nosotros": "Über Uns",
+        "copy": "&copy; Copyright César Alegre 2024. Alle Rechte vorbehalten.",
+        "galeria":"GALERIE",
+        "leer":"Mehr lesen",
+        "imagenes":"Bilder"
+    },
+    "contenido": {
+        "historiai": "GESCHICHTE",
+        "iglesiat1": "Kirche <span class='text-primary'>San Ignacio Guazú</span>",
+        "iglesiai1": "Im 17. Jahrhundert kamen die Jesuiten mit der Mission, die indigene Bevölkerung zu evangelisieren, in die Provinz Paraguay. Während ihres Aufenthalts gründeten sie 30 Städte und lehrten Musik, Kunst und Architektur. In San Ignacio Guazú bauten sie eine monumentale Kirche, die trotz ihres Abrisses im 20. Jahrhundert ein tiefes Erbe in der Geschichte und Kultur des Ortes hinterließ.",
+        "iglesiat2": "<span class='text-primary'>Erste Kirche und </span>sein Niedergang",
+        "iglesiai2": "Die erste Kirche San Ignacio Guazú wurde 1694 fertiggestellt. Diese Kirche, die bis 1911 in einem verfallenen Zustand überlebte, stürzte schließlich 1921 ein. Sie zeichnete sich durch ihr hölzernes Interieur und eine mit bis zu sechzehnhundert Gemälden geschmückte Decke aus. Nach seiner Zerstörung blieben nur noch einige Überreste übrig, die heute im Diözesanmuseum San Ignacio Guazú ausgestellt sind.",
+        "nuevo":"Neu",
+        "templo":"Tempel",
+        "iglesiai3":"Der Bau der heutigen Kirche San Ignacio Guazú begann 1919 und wurde 1932 abgeschlossen. Obwohl sie nicht die gleiche Pracht wie der alte Jesuitentempel hatte, war sie das Ergebnis einer gemeinsamen Anstrengung der Gemeinde und der Männer, die in der Kirche arbeiteten Feld zu den Kindern, die Wasser trugen. Laut Saturnino Ferreira Pérez wurde der Bau von Teodoro und Eugenio Pérez López, Venancio und Jacinto Ferloni und anderen sowie hundert anonymen Bewohnern geleitet.",
+        "iglesiai4":"Der Bau des neuen Tempels war ein Gemeinschaftsprojekt. Sowohl reiche als auch einfache Gemeindemitglieder steuerten Material und Arbeit bei. Viehzüchter finanzierten den Materialeinkauf, während örtliche Tischler und Sägewerke das nötige Holz lieferten. Die Begeisterung der Bevölkerung war so groß, dass Anfang 1932 mit dem Bau des Daches begonnen wurde.",
+        "iglesiat3":"Fertigstellung <span class='text-primary'>des Tempels</span>",
+        "iglesiai5":"Mitten im Chaco-Krieg kehrten die Jesuiten unter der Führung von Pater Joaquín Vericat und anderen nach San Ignacio zurück. Seine Anwesenheit gab der Fertigstellung des Tempels neuen Schwung. In Zusammenarbeit mit der Gemeinde wurden Fliesen verlegt und die Holzarbeiten und die Dacheindeckung fertiggestellt.",
+        "iglesiat4":"<span class='text-primary'>Vermächtnis </span> und Bewahrung",
+        "iglesiai6":"Obwohl der alte Jesuitentempel nicht mehr existiert, bleibt sein Erbe im neuen Tempel und im Jesuitenmuseum bestehen, das prächtige Stücke sakraler Kunst und historische Dokumente aus dieser Zeit bewahrt. San Ignacio Guazú bleibt ein lebendiges Zeugnis der reichen Jesuitengeschichte in Paraguay."
+    }, 
+    "sitiosp":{
+        "sitioiglesia":"Es ist eines der ältesten und symbolträchtigsten des Landes. Seine Geschichte ist eng verbunden mit...",
+        "sitiobarraca":"Die Barraca de Tañarandy ist ein kulturelles und religiöses Fest, das in Tañarandy gefeiert wird ...",
+        "sitiocapilla":"Es ist ein Ort von großer kultureller und religiöser Bedeutung. Tañarandy, dessen Name auf Guaraní bedeutet...",
+        "sitioestatuat":"Statue Von <br>San Roque González",
+        "sitioestatuai":"Die Statue befindet sich auf dem Hauptplatz von San Ignacio, Misiones, einem Ort der...",
+        "sitioplazat":"Paraguayischer <br>Frauenplatz",
+        "sitioplazai":"Es ist ein Raum mit einer reichen Geschichte, der sowohl die Anerkennung von Frauen widerspiegelt...",
+        "sitiohogart":"Pflegeheim <br>St. Vicent De Paul",
+        "sitiohogari":"Dieses Pflegeheim wurde mit der Absicht gegründet, Pflege und Hilfe für..."
+    }
+}

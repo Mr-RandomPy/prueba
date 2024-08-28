@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     <head>
         <meta charset="utf-8">
@@ -67,37 +67,61 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 active">
                         <a href="index.html"
-                            class="nav-item nav-link">Inicio</a>
+                            class="nav-item nav-link" data-section="nav"
+                            data-value="inicio">Inicio</a>
                         <a href="sitios.html"
-                            class="nav-item nav-link ">Sitios</a>
+                            class="nav-item nav-link " data-section="nav"
+                            data-value="sitios">Sitios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle"
-                                data-bs-toggle="dropdown">Páginas</a>
+                                data-bs-toggle="dropdown" data-section="nav"
+                                data-value="paginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="iglesia.html"
-                                    class="dropdown-item">Iglesia San Ignacio
+                                    class="dropdown-item" data-section="nav" data-value="iglesia">Iglesia San Ignacio
                                     Guazú</a>
                                 <a href="barraca.html"
-                                    class="dropdown-item">Barraca de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="barraca">Barraca de
                                     Tañarandy</a>
                                 <a href="capillatanarandy.html"
-                                    class="dropdown-item">Capilla de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="capilla">Capilla de
                                     Tañarandy</a>
                                 <a href="estatuasanroque.html"
-                                    class="dropdown-item">Estatua de San
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="estatua">Estatua de San
                                     Roque</a>
                                 <a href="plazadelamujerparaguaya.html"
-                                    class="dropdown-item">Plaza de la Mujer
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="plaza">Plaza de la Mujer
                                     Paraguaya
                                 </a>
                                 <a href="hogardeansianos.html"
-                                    class="dropdown-item">Hogar de Ancianos
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="hogar">Hogar de Ancianos
                                 </a>
 
                             </div>
                         </div>
-                        <a href="aboutus.html" class="nav-item nav-link">Sobre
+                        <a href="aboutus.html" class="nav-item nav-link"
+                            data-section="nav" data-value="nosotros">Sobre
                             Nosotros</a>
+
+                        <div id="flags" class="flags">
+                            <div class="flags_item" data-language="es">
+                                <img class="flags_img" src="/icons/es.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="en">
+                                <img class="flags_img" src="/icons/us.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="pt">
+                                <img class="flags_img" src="/icons/pt.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="de">
+                                <img class="flags_img" src="/icons/de.svg" alt>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -115,21 +139,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- Navbar & Hero End -->
-
-        <!-- Package Start -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-            </iframe>
-        </div>
-        
-        
-        <!-- Package End -->
-
-        
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
@@ -145,7 +157,8 @@
                 <div class="copyright">
                     <div class="row">
                         <div
-                            class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            class="col-md-6 text-center text-md-start mb-3 mb-md-0"
+                            data-section="nav" data-value="copy">
                             &copy; Copyright César Alegre 2024. Todos los
                             derechos reservados.
                         </div>

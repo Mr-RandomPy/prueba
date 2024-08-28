@@ -1,0 +1,45 @@
+{
+    "nav": {
+        "inicio": "Começar",
+        "sitios": "Locais",
+        "paginas": "Páginas",
+        "iglesia": "Igreja de San Ignácio Guazú",
+        "capilla": "Capela Tañarandy",
+        "barraca": "Quartel Tañarandy",
+        "estatua": "Estátua de São Roque",
+        "plaza": "Praça Feminina Paraguaia",
+        "hogar": "Casa de Repouso",
+        "nosotros": "Sobre Nós",
+        "copy": "&copy; Copyright César Alegre 2024. Todos os direitos reservados.",
+        "galeria":"GALERIA",
+        "imagenes":"Imagens",
+        "leer":"Leia mais"
+    },
+    "contenido": {
+        "historiai": "HISTÓRIA",
+        "iglesiat1": "Igreja de <span class='text-primary'>San Ignacio Guazú</span>",
+        "iglesiai1": "No século XVII, os Jesuítas chegaram à Província do Paraguai com a missão de evangelizar os povos indígenas. Durante a sua estadia, fundaram 30 cidades e ensinaram música, arte e arquitetura. Em San Ignacio Guazú construíram uma igreja monumental que, apesar de ter sido demolida no século XX, deixou um legado profundo na história e na cultura do lugar.",
+        "iglesiat2": "<span class='text-primary'>Primeira Igreja </span>e seu Declínio",
+        "iglesiai2": "A primeira igreja de San Ignacio Guazú foi concluída em 1694. Esta igreja, que sobreviveu até 1911 em estado deteriorado, desabou finalmente em 1921. Destacava-se pelo seu interior em madeira e pelo teto adornado com até mil e seiscentas pinturas. Após sua destruição, restaram apenas alguns vestígios que hoje estão expostos no Museu Diocesano de San Ignacio Guazú.",
+        "nuevo":"Novo",
+        "templo":"Templo",
+        "iglesiai3":"A construção da atual igreja de San Ignacio Guazú começou em 1919 e foi concluída em 1932. Apesar de não ter o mesmo esplendor do antigo templo jesuíta, foi fruto de um esforço coletivo da comunidade, dos homens que trabalhavam na campo para as crianças que carregavam água. Segundo Saturnino Ferreira Pérez, a construção foi liderada por Teodoro e Eugenio Pérez López, Venancio e Jacinto Ferloni, entre outros, além de uma centena de moradores anônimos.",
+        "iglesiai4":"A construção do novo templo foi um projeto comunitário. Os paroquianos, ricos e humildes, contribuíram com materiais e trabalho. Os fazendeiros financiaram a compra de materiais, enquanto os carpinteiros e serrarias locais forneciam a madeira necessária. O entusiasmo da população foi tal que a construção avançou para a cobertura no início de 1932.",
+        "iglesiat3":"Conclusão  <span class='text-primary'>do Templo</span>",
+        "iglesiai5":"Em plena Guerra do Chaco, os Jesuítas retornaram a San Ignacio, liderados pelo Padre Joaquín Vericat e outros. Sua presença deu novo impulso à conclusão do templo. Foram instaladas telhas e concluídas as marcenarias e coberturas com a colaboração da comunidade.",
+        "iglesiat4":"<span class='text-primary'>Legado e </span>Preservação",
+        "iglesiai6":"Embora o antigo templo jesuíta já não exista, o seu legado persiste no novo templo e no Museu Jesuíta, que preserva magníficas peças de arte sacra e documentos históricos da época. San Ignacio Guazú continua sendo um testemunho vivo da rica história jesuíta no Paraguai."
+    },
+    "sitiosp":{
+        "sitioiglesia":"É um dos mais antigos e emblemáticos do país. Sua história está intimamente ligada...",
+        "sitiobarraca":"A Barraca de Tañarandy é uma festa cultural e religiosa celebrada em Tañarandy...",
+        "sitiocapilla":"É um local de grande importância cultural e religiosa. Tañarandy, cujo nome em guarani significa...",
+        "sitioestatuat":"Estátua de <br>São Roque González",
+        "sitioestatuai":"A estátua está localizada na praça principal de San Ignacio, Misiones, local de...",
+        "sitioplazat":"Praça Feminina <br>Paraguaia",
+        "sitioplazai":"É um espaço com uma história rica que reflete tanto o reconhecimento das mulheres...",
+        "sitiohogart":"Casa de Repouso <br>São Vicente De Paul",
+        "sitiohogari":"Este lar de idosos foi fundado com o intuito de prestar cuidados e assistência a..."
+    }
+
+}

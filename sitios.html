@@ -66,37 +66,61 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link"
+                            data-section="nav" data-value="inicio">Inicio</a>
                         <a href="sitios.html"
-                            class="nav-item nav-link active">Sitios</a>
+                            class="nav-item nav-link active" data-section="nav"
+                            data-value="sitios">Sitios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle"
-                                data-bs-toggle="dropdown">Páginas</a>
+                                data-bs-toggle="dropdown" data-section="nav"
+                                data-value="paginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="iglesia.html"
-                                    class="dropdown-item">Iglesia San Ignacio
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="iglesia">Iglesia San Ignacio
                                     Guazú</a>
                                 <a href="barraca.html"
-                                    class="dropdown-item">Barraca de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="barraca">Barraca de
                                     Tañarandy</a>
                                 <a href="capillatanarandy.html"
+                                    data-section="nav" data-value="capilla"
                                     class="dropdown-item">Capilla de
                                     Tañarandy</a>
                                 <a href="estatuasanroque.html"
+                                    data-section="nav" data-value="estatua"
                                     class="dropdown-item">Estatua de San
                                     Roque</a>
                                 <a href="plazadelamujerparaguaya.html"
+                                    data-section="nav" data-value="plaza"
                                     class="dropdown-item">Plaza de la Mujer
                                     Paraguaya
                                 </a>
                                 <a href="hogardeansianos.html"
+                                    data-section="nav" data-value="hogar"
                                     class="dropdown-item">Hogar de Ancianos
                                 </a>
 
                             </div>
                         </div>
-                        <a href="aboutus.html" class="nav-item nav-link">Sobre
+                        <a href="aboutus.html" class="nav-item nav-link"
+                            data-section="nav" data-value="nosotros">Sobre
                             Nosotros</a>
+                        <div id="flags" class="flags">
+                            <div class="flags_item" data-language="es">
+                                <img class="flags_img" src="/icons/es.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="en">
+                                <img class="flags_img" src="/icons/us.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="pt">
+                                <img class="flags_img" src="/icons/pt.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="de">
+                                <img class="flags_img" src="/icons/de.svg" alt>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -106,14 +130,18 @@
                     <div class="row justify-content-center py-5">
                         <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
                             <h1
-                                class="display-3 text-white animated slideInDown">Sitios</h1>
+                                class="display-3 text-white animated slideInDown"
+                                data-section="nav"
+                                data-value="sitios">Sitios</h1>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a
-                                            href="index.html">Inicio</a></li>
+                                            href="index.html" data-section="nav"
+                                            data-value="inicio">Inicio</a></li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Sitios</li>
+                                        aria-current="page" data-section="nav"
+                                        data-value="sitios">Sitios</li>
                                 </ol>
                             </nav>
                         </div>
@@ -128,7 +156,8 @@
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6
-                        class="section-title bg-white text-center text-primary px-3">Sitios</h6>
+                        class="section-title bg-white text-center text-primary px-3"
+                        data-section="nav" data-value="sitios">Sitios</h6>
                     <h1 class="mb-5">San Ignacio</h1>
                 </div>
                 <div class="row g-4 justify-content-center">
@@ -146,7 +175,9 @@
                                     San Ignacio 080303</small>
                             </div>
                             <div class="text-center p-4">
-                                <h3 class="mb-0">Iglesia San Ignacio Guazú</h3>
+                                <h3 class="mb-0" data-section="nav"
+                                    data-value="iglesia">Iglesia San Ignacio
+                                    Guazú</h3>
                                 <div class="mb-3">
                                     <small
                                         class="fa fa-star text-primary"></small>
@@ -159,13 +190,17 @@
                                     <small
                                         class="fa fa-star text-primary"></small>
                                 </div>
-                                <p>Es una de las más antiguas y emblemáticas del
+                                <p data-section="sitiosp"
+                                    data-value="sitioiglesia">Es una de las más
+                                    antiguas y emblemáticas del
                                     país. Su historia está íntimamente ligada a
                                     la...</p>
                                 <div class="d-flex justify-content-center mb-2">
                                     <a href="iglesia.html"
                                         class="btn btn-primary rounded-pill px-3"
-                                        style="border-radius: 0 30px 30px 0;">Leer
+                                        style="border-radius: 0 30px 30px 0;"
+                                        data-section="nav"
+                                        data-value="leer">Leer
                                         Más</a>
                                 </div>
 
@@ -187,7 +222,9 @@
                                     Cerro Cora, San Ignacio 080304</small>
                             </div>
                             <div class="text-center p-4">
-                                <h3 class="mb-0">Barraca de Tañarandy</h3>
+                                <h3 class="mb-0" data-section="nav"
+                                    data-value="barraca">Barraca de
+                                    Tañarandy</h3>
                                 <div class="mb-3">
                                     <small
                                         class="fa fa-star text-primary"></small>
@@ -200,13 +237,17 @@
                                     <small
                                         class="fa fa-star text-primary"></small>
                                 </div>
-                                <p>La Barraca de Tañarandy es una festividad
+                                <p data-section="sitiosp"
+                                    data-value="sitiobarraca">La Barraca de
+                                    Tañarandy es una festividad
                                     cultural y religiosa que se celebra en
                                     Tañarandy...</p>
                                 <div class="d-flex justify-content-center mb-2">
                                     <a href="barraca.html"
                                         class="btn btn-primary rounded-pill px-3"
-                                        style="border-radius: 0 30px 30px 0;">Leer
+                                        style="border-radius: 0 30px 30px 0;"
+                                        data-section="nav"
+                                        data-value="leer">Leer
                                         Más</a>
                                 </div>
 
@@ -229,7 +270,9 @@
 
                             </div>
                             <div class="text-center p-4">
-                                <h3 class="mb-0">Capilla de Tañarandy</h3>
+                                <h3 class="mb-0" data-section="nav"
+                                    data-value="capilla">Capilla de
+                                    Tañarandy</h3>
                                 <div class="mb-3">
                                     <small
                                         class="fa fa-star text-primary"></small>
@@ -242,7 +285,9 @@
                                     <small
                                         class="fa fa-star text-primary"></small>
                                 </div>
-                                <p>Es un sitio de gran importancia cultural y
+                                <p data-section="sitiosp"
+                                    data-value="sitiocapilla">Es un sitio de
+                                    gran importancia cultural y
                                     religiosa. Tañarandy, cuyo nombre en guaraní
                                     significa...</p>
                                 <div class="d-flex justify-content-center mb-2">
@@ -269,7 +314,9 @@
                                     San Ignacio 080304</small>
                             </div>
                             <div class="text-center p-4">
-                                <h3 class="mb-0">Estatua De <br>San Roque
+                                <h3 class="mb-0" data-section="sitiosp"
+                                    data-value="sitioestatuat">Estatua De
+                                    <br>San Roque
                                     González</h3>
                                 <div class="mb-3">
                                     <small
@@ -283,13 +330,16 @@
                                     <small
                                         class="fa fa-star text-primary"></small>
                                 </div>
-                                <p>Este hogar de ancianos se fundó con la
-                                    intención de proporcionar cuidado y
-                                    asistencia a las...</p>
+                                <p data-section="sitiosp"
+                                    data-value="sitioestatuai">La estatua está
+                                    situada en la plaza principal
+                                    de San Ignacio, Misiones, un lugar de...</p>
                                 <div class="d-flex justify-content-center mb-2">
                                     <a href="estatuasanroque.html"
                                         class="btn btn-primary rounded-pill px-3"
-                                        style="border-radius: 0 30px 30px 0;">Leer
+                                        style="border-radius: 0 30px 30px 0;"
+                                        data-section="nav"
+                                        data-value="leer">Leer
                                         Más</a>
                                 </div>
 
@@ -310,7 +360,9 @@
                                     San Ignacio</small>
                             </div>
                             <div class="text-center p-4">
-                                <h3 class="mb-0">Plaza de la <br> Mujer
+                                <h3 class="mb-0" data-section="sitiosp"
+                                    data-value="sitioplazat">Plaza de la <br>
+                                    Mujer
                                     Paraguaya</h3>
                                 <div class="mb-3">
                                     <small
@@ -324,13 +376,16 @@
                                     <small
                                         class="fa fa-star text-primary"></small>
                                 </div>
-                                <p>Es un espacio con una rica historia que
+                                <p data-section="sitiosp"
+                                    data-value="sitioplazai">Es un espacio con
+                                    una rica historia que
                                     refleja tanto el reconocimiento a las
                                     mujeres...</p>
                                 <div class="d-flex justify-content-center mb-2">
                                     <a href="plazadelamujerparaguaya.html"
                                         class="btn btn-primary rounded-pill px-3"
-                                        style="border-radius: 0 30px 30px 0;">Leer
+                                        style="border-radius: 0 30px 30px 0;"
+                                        data-section="nav" data-value="leer">Leer
                                         Más</a>
                                 </div>
 
@@ -351,7 +406,9 @@
                                     San Ignacio 080303</small>
                             </div>
                             <div class="text-center p-4">
-                                <h3 class="mb-0">Hogar De Ancianos <br>San
+                                <h3 class="mb-0" data-section="sitiosp"
+                                    data-value="sitiohogart">Hogar De Ancianos
+                                    <br>San
                                     Vicente De Paul</h3>
                                 <div class="mb-3">
                                     <small
@@ -365,13 +422,17 @@
                                     <small
                                         class="fa fa-star text-primary"></small>
                                 </div>
-                                <p>Este hogar de ancianos se fundó con la
+                                <p data-section="sitiosp"
+                                    data-value="sitiohogari">Este hogar de
+                                    ancianos se fundó con la
                                     intención de proporcionar cuidado y
                                     asistencia a las...</p>
                                 <div class="d-flex justify-content-center mb-2">
                                     <a href="hogardeansianos.html"
                                         class="btn btn-primary rounded-pill px-3"
-                                        style="border-radius: 0 30px 30px 0;">Leer
+                                        style="border-radius: 0 30px 30px 0;"
+                                        data-section="nav"
+                                        data-value="leer">Leer
                                         Más</a>
                                 </div>
 
@@ -397,7 +458,9 @@
                 <div class="copyright">
                     <div class="row">
                         <div
-                            class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            class="col-md-6 text-center text-md-start mb-3 mb-md-0"
+                            data-section="nav" data-vale="copy" data-section="nav"
+                            data-value="copy">
                             &copy; Copyright César Alegre 2024. Todos los
                             derechos reservados.
                         </div>

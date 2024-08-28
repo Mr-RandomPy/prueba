@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "inicio": "Inicio",
+        "sitios": "Sitios",
+        "paginas": "Páginas",
+        "iglesia": "Iglesia San Ignacio Guazú",
+        "capilla": "Capilla de Tañarandy",
+        "barraca": "Barraca de Tañarandy",
+        "estatua": "Estatua de San Roque",
+        "plaza": "Plaza de la Mujer Paraguaya",
+        "hogar": "Hogar de Ancianos",
+        "nosotros": "Sobre Nosotros",
+        "copy": "&copy; Copyright César Alegre 2024. Todos los derechos reservados.",
+        "galeria":"GALERIA",
+        "imagenes":"Imágenes",
+        "leer":"Leer Más"
+    },
+    "contenido": {
+        "historiai": "HISTORIA",
+        "iglesiat1": "Iglesia de <span class='text-primary'>San Ignacio Guazú</span>",
+        "iglesiai1": "En el siglo XVII, los jesuitas llegaron a la Provincia del Paraguay con la misión de evangelizar a los indígenas. Durante su estancia, fundaron 30 pueblos y enseñaron música, arte y arquitectura. En San Ignacio Guazú, construyeron una monumental iglesia que, a pesar de haber sido demolida en el siglo XX, dejó un legado profundo en la historia y cultura del lugar.",
+        "iglesiat2": "<span class='text-primary'>Primera Iglesia</span>y Su Declive",
+        "iglesiai2": "La primera iglesia de San Ignacio Guazú fue completada en 1694. Esta iglesia, que sobrevivió hasta 1911 en estado deteriorado, finalmente se derrumbó en 1921. Se destacaba por su interior de madera y un cielo raso adornado con hasta mil seiscientas pinturas. Tras su destrucción, solo quedaron algunos vestigios que se exhiben hoy en el Museo Diocesano de San Ignacio Guazú.",
+        "nuevo":"Nuevo",
+        "templo":"Templo",
+        "iglesiai3":"La construcción de la actual iglesia de San Ignacio Guazú comenzó en 1919 y culminó en 1932. A pesar de no tener el mismo esplendor que el antiguo templo jesuítico, fue el resultado de un esfuerzo colectivo de la comunidad, desde los hombres que trabajaban en el campo hasta los niños que transportaban agua. Según Saturnino Ferreira Pérez, la construcción fue liderada por Teodoro y Eugenio Pérez López, Venancio y Jacinto Ferloni, y otros, junto con un centenar de pobladores anónimos.",
+        "iglesiai4":"La construcción del nuevo templo fue un proyecto comunitario. Los feligreses, tanto ricos como humildes, aportaron materiales y trabajo. Los ganaderos financiaron la compra de materiales, mientras que los carpinteros y aserraderos locales proporcionaron la madera necesaria. El entusiasmo de la población fue tal que la construcción avanzó hasta el techo a inicios de 1932.",
+        "iglesiat3":"Finalización del <span class='text-primary'>Templo</span>",
+        "iglesiai5":"En plena Guerra del Chaco, los jesuitas regresaron a San Ignacio, liderados por el padre Joaquín Vericat y otros. Su presencia dio un nuevo impulso para la terminación del templo. Se instalaron baldosas y se completó el maderamen y techado con la colaboración de la comunidad.",
+        "iglesiat4":"<span class='text-primary'>Legado</span> y Preservación",
+        "iglesiai6":"Aunque el antiguo templo jesuítico ya no existe, su legado persiste en el nuevo templo y en el Museo Jesuítico, que conserva magníficas piezas de arte sacro y documentos históricos de la época. San Ignacio Guazú sigue siendo un testimonio vivo de la rica historia jesuítica en Paraguay."
+    },
+    "sitiosp":{
+        "sitioiglesia":"Es una de las más antiguas y emblemáticas del país. Su historia está íntimamente ligada a la...",
+        "sitiobarraca":"La Barraca de Tañarandy es una festividad cultural y religiosa que se celebra en Tañarandy...",
+        "sitiocapilla":"Es un sitio de gran importancia cultural y religiosa. Tañarandy, cuyo nombre en guaraní significa...",
+        "sitioestatuat":"Estatua De <br>San Roque González",
+        "sitioestatuai":"La estatua está situada en la plaza principal de San Ignacio, Misiones, un lugar de...",
+        "sitioplazat":"Plaza de la <br> Mujer Paraguaya",
+        "sitioplazai":"Es un espacio con una rica historia que refleja tanto el reconocimiento a las mujeres...",
+        "sitiohogart":"Hogar De Ancianos <br>San Vicente De Paul",
+        "sitiohogari":"Este hogar de ancianos se fundó con la intención de proporcionar cuidado y asistencia a las..."
+    }
+}
