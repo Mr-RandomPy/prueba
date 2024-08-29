@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     <head>
         <meta charset="utf-8">
@@ -65,86 +65,133 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
+                    <div class="navbar-nav ms-auto py-0 active">
                         <a href="index.html"
-                            class="nav-item nav-link">Inicio</a>
+                            class="nav-item nav-link" data-section="nav"
+                            data-value="inicio">Inicio</a>
                         <a href="sitios.html"
-                            class="nav-item nav-link ">Sitios</a>
+                            class="nav-item nav-link " data-section="nav"
+                            data-value="sitios">Sitios</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle "
-                                data-bs-toggle="dropdown">Páginas</a>
+                            <a href="#" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" data-section="nav"
+                                data-value="paginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="iglesia.html"
-                                    class="dropdown-item">Iglesia San Ignacio
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="iglesia">Iglesia San Ignacio
                                     Guazú</a>
                                 <a href="barraca.html"
-                                    class="dropdown-item">Barraca de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="barraca">Barraca de
                                     Tañarandy</a>
                                 <a href="capillatanarandy.html"
-                                    class="dropdown-item">Capilla de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="capilla">Capilla de
                                     Tañarandy</a>
                                 <a href="estatuasanroque.html"
-                                    class="dropdown-item">Estatua de San
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="estatua">Estatua de San
                                     Roque</a>
                                 <a href="plazadelamujerparaguaya.html"
-                                    class="dropdown-item">Plaza de la Mujer
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="plaza">Plaza de la Mujer
                                     Paraguaya
                                 </a>
                                 <a href="hogardeansianos.html"
-                                    class="dropdown-item">Hogar de Ancianos
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="hogar">Hogar de Ancianos
                                 </a>
 
                             </div>
                         </div>
-                        <a href="aboutus.html" class="nav-item nav-link active">Sobre
+                        <a href="aboutus.html" class="nav-item nav-link active"
+                            data-section="nav" data-value="nosotros">Sobre
                             Nosotros</a>
+
+                        <div id="flags" class="flags nav-item">
+                            <div class="flags_item" data-language="es">
+                                <img class="flags_img" src="./icons/es.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="en">
+                                <img class="flags_img" src="./icons/us.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="pt">
+                                <img class="flags_img" src="./icons/pt.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="de">
+                                <img class="flags_img" src="./icons/de.svg" alt>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
 
-            <div class="container-fluid bg-primary py-5 mb-5 barraca-header">
-                <div class="container py-5">
-                    <div class="row justify-content-center py-5">
-                        <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-
+            <div
+                class="container-fluid bg-primary py-5 hero-header vh-100 d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-center">
                             <h1
-                                class="display-3  animated slideInDown text-white m-0">QrTime
+                                class="display-1 animated slideInDown text-white m-0 p-2">
+                                <i
+                                    class="fa fa-qrcode me-3"></i>QrTime
                                 Travel</h1>
+                            <h1
+                                class="display-1 animated slideInDown text-white m-0 p-2" data-section="about" data-value="sub">
+                                Quiénes somos?</h1>
 
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- Navbar & Hero End -->
 
-        <!-- Package Start -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-            </iframe>
+        <!-- Sobre Nosotros Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center"> 
+                        <h2 class="mb-4 display-3 animated slideInDown" data-wow-delay="0.1s" data-section="nav" data-value="nosotros">Sobre Nosotros</h2>
+                        <p class="animated slideInDown" data-wow-delay="0.1s" data-section="about" data-value="somos">Somos alumnos del Tercero BTI SIL 2024, comprometidos
+                            con el desarrollo tecnológico y la promoción
+                            cultural de nuestra querida ciudad, San Ignacio
+                            Guazú. Nuestro objetivo es facilitar a los turistas
+                            extranjeros y a cualquier persona interesada el
+                            acceso a información sobre los lugares históricos y
+                            emblemáticos de nuestra ciudad, de una manera
+                            moderna y accesible. Con tan solo escanear un código
+                            QR, puedes descubrir la historia, la cultura y la
+                            belleza de San Ignacio Guazú, todo en tu idioma.<br>
+                            Este sitio web multilenguaje es parte de nuestro
+                            proyecto de clase, y estamos orgullosos de poder
+                            contribuir al turismo y la educación en nuestra
+                            comunidad. ¡Gracias por visitarnos y esperamos que
+                            disfrutes explorando San Ignacio tanto como nosotros
+                            disfrutamos desarrollando este proyecto para ti!</p>
+                        <img src="img/alumnos.jpg" class="img-fluid rounded mt-4"
+                            alt="Alumnos del Tercero BTI SIL 2024">
+                        <h5 class="mt-3 animated slideInDown " data-wow-delay="0.1s" data-section="about" data-value="alumnos">ALUMNOS DEL TERCERO BTI SIL 2024</h5>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        
-        
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
-            <i class="bi bi-arrow-up"></i>
-        </a>
-
+        <!-- Sobre Nosotros End -->
         <!-- Footer Start -->
         <div
-            class="container-fluid bg-dark text-light footer pt-3 mt-5 wow fadeIn"
+            class="container-fluid bg-dark text-light footer pt-2 wow fadeIn"
             data-wow-delay="0.1s">
 
             <div class="container">
                 <div class="copyright">
                     <div class="row">
                         <div
-                            class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; Copyright César Alegre 2024. Todos los
+                            class="col-md-6 text-center text-md-start mb-0 mb-md-0"
+                            data-section="nav" data-value="copy">
+                            &copy; Copyright Alumnos del Tercero BTI SIL 2024.
+                            Todos los
                             derechos reservados.
                         </div>
                     </div>

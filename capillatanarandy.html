@@ -65,39 +65,64 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <div class="navbar-nav ms-auto py-0 ">
+                        <a href="index.html"
+                            class="nav-item nav-link" data-section="nav"
+                            data-value="inicio">Inicio</a>
                         <a href="sitios.html"
-                            class="nav-item nav-link ">Sitios</a>
+                            class="nav-item nav-link " data-section="nav"
+                            data-value="sitios">Sitios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active"
-                                data-bs-toggle="dropdown">Páginas</a>
+                                data-bs-toggle="dropdown" data-section="nav"
+                                data-value="paginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="iglesia.html"
-                                    class="dropdown-item">Iglesia San
-                                    Ignacio
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="iglesia">Iglesia San Ignacio
                                     Guazú</a>
                                 <a href="barraca.html"
-                                    class="dropdown-item">Barraca de
+                                    class="dropdown-item "
+                                    data-section="nav"
+                                    data-value="barraca">Barraca de
                                     Tañarandy</a>
                                 <a href="capillatanarandy.html"
-                                    class="dropdown-item active">Capilla de
+                                    class="dropdown-item active" data-section="nav"
+                                    data-value="capilla">Capilla de
                                     Tañarandy</a>
                                 <a href="estatuasanroque.html"
-                                    class="dropdown-item">Estatua de San
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="estatua">Estatua de San
                                     Roque</a>
                                 <a href="plazadelamujerparaguaya.html"
-                                    class="dropdown-item">Plaza de la Mujer
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="plaza">Plaza de la Mujer
                                     Paraguaya
                                 </a>
                                 <a href="hogardeansianos.html"
-                                    class="dropdown-item">Hogar de Ancianos
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="hogar">Hogar de Ancianos
                                 </a>
 
                             </div>
                         </div>
-                        <a href="aboutus.html" class="nav-item nav-link">Sobre
+                        <a href="aboutus.html" class="nav-item nav-link"
+                            data-section="nav" data-value="nosotros">Sobre
                             Nosotros</a>
+                        <div id="flags" class="flags nav-item">
+                            <div class="flags_item" data-language="es">
+                                <img class="flags_img" src="./icons/es.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="en">
+                                <img class="flags_img" src="./icons/us.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="pt">
+                                <img class="flags_img" src="./icons/pt.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="de">
+                                <img class="flags_img" src="./icons/de.svg" alt>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -107,18 +132,18 @@
                     <div class="row justify-content-center py-5">
                         <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
                             <h1
-                                class="display-3 text-white animated slideInDown">Capilla
+                                class="display-3 text-white animated slideInDown" data-section="nav" data-value="capilla">Capilla
                                 de Tañarandy</h1>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a
-                                            href="index.html">Inicio</a></li>
+                                            href="index.html" data-section="nav" data-value="inicio">Inicio</a></li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Páginas</li>
+                                        aria-current="page" data-section="nav" data-value="paginas">Páginas</li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Capilla de
+                                        aria-current="page" data-section="nav" data-value="capilla">Capilla de
                                         Tañarandy</li>
                                 </ol>
                             </nav>
@@ -149,11 +174,11 @@
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
                                 <h6
-                                    class="section-title bg-white text-start text-primary pe-3">HISTORIA</h6>
-                                <h1 class="mb-4">Capilla de <span
+                                    class="section-title bg-white text-start text-primary pe-3" data-section="contenido" data-value="historiai">HISTORIA</h6>
+                                <h1 class="mb-4" data-section="contenidoC" data-value="capillat1">Capilla de <span
                                         class="text-primary">Tañarandy
                                     </span></h1>
-                                <p class="mb-4">Tañarandy, que significa
+                                <p class="mb-4" data-section="contenidoC" data-value="capillai1">Tañarandy, que significa
                                     "Tierra de los herejes" en guaraní, es un
                                     sitio emblemático en San Ignacio, Misiones,
                                     Paraguay, conocido por sus profundas raíces
@@ -163,7 +188,7 @@
                                     de gran importancia cultural y religiosa,
                                     especialmente durante la Semana Santa.</p>
 
-                                <p class="mb-4">La capilla de Tañarandy
+                                <p class="mb-4" data-section="contenidoC" data-value="capillai2">La capilla de Tañarandy
                                     es una estructura relativamente moderna,
                                     concebida como parte de los esfuerzos para
                                     revitalizar y preservar las tradiciones
@@ -184,14 +209,14 @@
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s"
                         style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <h6
-                            class="section-title bg-white text-center text-primary px-3">Razón</h6>
-                        <h1 class="mb-5">Legado</h1>
+                            class="section-title bg-white text-center text-primary px-3" data-section="contenidoC" data-value="razon">Razón</h6>
+                        <h1 class="mb-5" data-section="contenidoC" data-value="legado">Legado</h1>
                     </div>
                     <div class="container">
                         <div class="row g-5">
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
-                                <p class="mb-4">La creación de la capilla de
+                                <p class="mb-4" data-section="contenidoC" data-value="capillai3">La creación de la capilla de
                                     Tañarandy responde a la necesidad de
                                     conservar y fomentar las tradiciones
                                     religiosas y culturales de la comunidad
@@ -204,7 +229,7 @@
                                     mantenidas y presentadas, subrayando la rica
                                     identidad cultural paraguaya.</p>
 
-                                <p class="mb-4">El legado cultural de Tañarandy
+                                <p class="mb-4" data-section="contenidoC" data-value="capillai4">El legado cultural de Tañarandy
                                     es profundo y significativo. Uno de los
                                     eventos más destacados es
                                     "La Procesión de los Penitentes" o
@@ -249,9 +274,9 @@
                             </div>
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
-                                <h1 class="mb-4">Usos <span
+                                <h1 class="mb-4" data-section="contenidoC" data-value="capillat2">Usos <span
                                         class="text-primary">Actuales</span></h1>
-                                <p class="mb-4">Hoy en día, la capilla y el área
+                                <p class="mb-4" data-section="contenidoC" data-value="capillai5">Hoy en día, la capilla y el área
                                     de Tañarandy son utilizadas principalmente
                                     para eventos religiosos y culturales. Aunque
                                     la Semana Santa es la época más destacada,
@@ -263,11 +288,11 @@
                                     de encuentro para la comunidad, preservando
                                     las tradiciones mientras se adapta a los
                                     tiempos modernos.</p>
-                                <h1 class="mb-4 text-end"><span
-                                        class="text-primary ">Koki</span>
+                                <h1 class="mb-4 text-end" data-section="contenidoC" data-value="capillat3"><span
+                                        class="text-primary " >Koki</span>
                                     Ruiz
                                 </h1>
-                                <p class="mb-4 text-end">El trabajo de Koki Ruiz
+                                <p class="mb-4 text-end" data-section="contenidoC" data-value="capillai6">El trabajo de Koki Ruiz
                                     ha sido fundamental para el desarrollo y la
                                     promoción de Tañarandy, logrando que esta
                                     pequeña región de Paraguay sea reconocida
@@ -291,8 +316,8 @@
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s"
                     style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <h6
-                        class="section-title bg-white text-center text-primary px-3">Galeria</h6>
-                    <h1 class="mb-5">Imágenes</h1>
+                        class="section-title bg-white text-center text-primary px-3" data-section="nav" data-value="galeria">Galeria</h6>
+                    <h1 class="mb-5" data-section="nav" data-value="imagenes">Imágenes</h1>
                 </div>
                 <div class="row g-3">
                     <div class="col-lg-7 col-md-6">
@@ -354,8 +379,8 @@
                 <div class="copyright">
                     <div class="row">
                         <div
-                            class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; Copyright César Alegre 2024. Todos los
+                            class="col-md-6 text-center text-md-start mb-3 mb-md-0" data-section="nav" data-value="copy">
+                            &copy; Copyright Alumnos del Tercero BTI SIL 2024. Todos los
                             derechos reservados.
                         </div>
                     </div>

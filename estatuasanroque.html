@@ -65,39 +65,64 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <div class="navbar-nav ms-auto py-0 ">
+                        <a href="index.html"
+                            class="nav-item nav-link" data-section="nav"
+                            data-value="inicio">Inicio</a>
                         <a href="sitios.html"
-                            class="nav-item nav-link ">Sitios</a>
+                            class="nav-item nav-link " data-section="nav"
+                            data-value="sitios">Sitios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active"
-                                data-bs-toggle="dropdown">Páginas</a>
+                                data-bs-toggle="dropdown" data-section="nav"
+                                data-value="paginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="iglesia.html"
-                                    class="dropdown-item">Iglesia San
-                                    Ignacio
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="iglesia">Iglesia San Ignacio
                                     Guazú</a>
                                 <a href="barraca.html"
-                                    class="dropdown-item">Barraca de
+                                    class="dropdown-item "
+                                    data-section="nav"
+                                    data-value="barraca">Barraca de
                                     Tañarandy</a>
                                 <a href="capillatanarandy.html"
-                                    class="dropdown-item">Capilla de
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="capilla">Capilla de
                                     Tañarandy</a>
                                 <a href="estatuasanroque.html"
-                                    class="dropdown-item active">Estatua de San
+                                    class="dropdown-item active" data-section="nav"
+                                    data-value="estatua">Estatua de San
                                     Roque</a>
                                 <a href="plazadelamujerparaguaya.html"
-                                    class="dropdown-item">Plaza de la Mujer
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="plaza">Plaza de la Mujer
                                     Paraguaya
                                 </a>
                                 <a href="hogardeansianos.html"
-                                    class="dropdown-item">Hogar de Ancianos
+                                    class="dropdown-item" data-section="nav"
+                                    data-value="hogar">Hogar de Ancianos
                                 </a>
 
                             </div>
                         </div>
-                        <a href="aboutus.html" class="nav-item nav-link">Sobre
+                        <a href="aboutus.html" class="nav-item nav-link"
+                            data-section="nav" data-value="nosotros">Sobre
                             Nosotros</a>
+                        <div id="flags" class="flags nav-item">
+                            <div class="flags_item" data-language="es">
+                                <img class="flags_img" src="./icons/es.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="en">
+                                <img class="flags_img" src="./icons/us.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="pt">
+                                <img class="flags_img" src="./icons/pt.svg" alt>
+                            </div>
+                            <div class="flags_item" data-language="de">
+                                <img class="flags_img" src="./icons/de.svg" alt>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -107,18 +132,19 @@
                     <div class="row justify-content-center py-5">
                         <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
                             <h1
-                                class="display-3 text-white animated slideInDown">Estatua
+                                class="display-3 text-white animated slideInDown" data-section="contenidoE" data-value="estatuaTitulo">Estatua
                                 de San Roque González de Santa Cruz</h1>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a
-                                            href="index.html">Inicio</a></li>
+                                            href="index.html" data-section="nav"
+                                            data-value="inicio">Inicio</a></li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Páginas</li>
+                                        aria-current="page" data-section="nav" data-value="paginas"> Páginas</li>
                                     <li
                                         class="breadcrumb-item text-white active"
-                                        aria-current="page">Estatua de San
+                                        aria-current="page" data-section="nav" data-value="estatua">Estatua de San
                                         Roque</li>
                                 </ol>
                             </nav>
@@ -149,12 +175,12 @@
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
                                 <h6
-                                    class="section-title bg-white text-start text-primary pe-3">Quién
+                                    class="section-title bg-white text-start text-primary pe-3" data-section="contenidoE" data-value="quien">Quién
                                     es</h6>
-                                <h1 class="mb-4">Roque González <span
+                                <h1 class="mb-4" data-section="contenidoE" data-value="estatuat1">Roque González <span
                                         class="text-primary"> <br>de Santa Cruz
                                     </span></h1>
-                                <p class="mb-4">Nació el 17 de noviembre de 1576
+                                <p class="mb-4" data-section="contenidoE" data-value="estatuai1">Nació el 17 de noviembre de 1576
                                     en
                                     Asunción, Paraguay. Era descendiente de una
                                     familia criolla de renombre. Fue ordenado
@@ -167,7 +193,7 @@
                                     Brasil) y fue canonizado por el Papa Juan
                                     Pablo II en 1988.</p>
 
-                                <p class="mb-4">San Roque González de Santa Cruz
+                                <p class="mb-4" data-section="contenidoE" data-value="estatuai2">San Roque González de Santa Cruz
                                     es uno de los santos más venerados en
                                     Paraguay y en otras regiones de América del
                                     Sur. Su legado como misionero jesuita y su
@@ -188,14 +214,14 @@
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s"
                         style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <h6
-                            class="section-title bg-white text-center text-primary px-3">Estatua</h6>
-                        <h1 class="mb-5">Significado</h1>
+                            class="section-title bg-white text-center text-primary px-3" data-section="contenidoE" data-value="estatuaT">Estatua</h6>
+                        <h1 class="mb-5" data-section="contenidoE" data-value="significado">Significado</h1>
                     </div>
                     <div class="container">
                         <div class="row g-5">
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
-                                <p class="mb-4">La estatua está situada en la
+                                <p class="mb-4" data-section="contenidoE" data-value="estatuai3">La estatua está situada en la
                                     plaza principal de San Ignacio, Misiones, un
                                     lugar de encuentro y de importancia
                                     histórica para la comunidad. Representa a
@@ -207,7 +233,7 @@
                                     dedicación a la propagación del cristianismo
                                     entre los pueblos indígenas.</p>
 
-                                <p class="mb-4">La estatua es un punto de
+                                <p class="mb-4" data-section="contenidoE" data-value="estatuai4">La estatua es un punto de
                                     peregrinación para muchos fieles que veneran
                                     a San Roque. Cada año, en su festividad, la
                                     plaza se llena de devotos que participan en
@@ -249,9 +275,9 @@
                             </div>
                             <div class="col-lg-6 wow fadeInUp"
                                 data-wow-delay="0.3s">
-                                <h1 class="mb-4">Impacto <span
+                                <h1 class="mb-4" data-section="contenidoE" data-value="estatuat2">Impacto <span
                                         class="text-primary">Turístico</span></h1>
-                                <p class="mb-4">San Ignacio es un destino
+                                <p class="mb-4" data-section="contenidoE" data-value="estatuai5">San Ignacio es un destino
                                     turístico importante en Misiones, no solo
                                     por la estatua, sino también por su historia
                                     rica en cultura jesuítica. La estatua de San
@@ -267,11 +293,11 @@
                                     aquellos que visitan la ciudad,
                                     complementando el recorrido por las ruinas
                                     de las reducciones jesuíticas.</p>
-                                <h1 class="mb-4 text-end"><span
+                                <h1 class="mb-4 text-end" data-section="contenidoE" data-value="estatuat3"><span
                                         class="text-primary ">Cultura e</span>
                                     historia
                                 </h1>
-                                <p class="mb-4 text-end">La estatua de San Roque
+                                <p class="mb-4 text-end" data-section="contenidoE" data-value="estatuai6">La estatua de San Roque
                                     González de Santa Cruz en San Ignacio,
                                     Misiones, no es solo una obra de arte, sino
                                     un símbolo viviente de la fe, cultura e
@@ -357,8 +383,8 @@
                 <div class="copyright">
                     <div class="row">
                         <div
-                            class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; Copyright César Alegre 2024. Todos los
+                            class="col-md-6 text-center text-md-start mb-3 mb-md-0" data-section="nav" data-value="copy">
+                            &copy; Copyright Alumnos del Tercero BTI SIL 2024. Todos los
                             derechos reservados.
                         </div>
                     </div>
